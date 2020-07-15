@@ -1,0 +1,73 @@
+*{
+position: relative;
+background: #0B0B0C;
+}
+
+.logo{
+position: absolute;
+left: 0px;
+top: 1px;
+font-family: Zhi Mang Xing;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 64px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FDF3F3;
+}
+.nav_list-item{
+    position: absolute;
+    width: 190px;
+    height: 53px;
+    left: 984px;
+    top: 2px;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+}
+.title{
+position: absolute;
+width: 1000px;
+height: 29px;
+left: 300px;
+top: 100px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 100;
+font-size: 42px;
+line-height: 108px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFBFB;
+}
+.log-btn{
+position: absolute;
+width: 243px;
+height: 99px;
+left: 1615px;
+top: 11px;
+
+background: linear-gradient(180deg, #0D0D11 0%, rgba(13, 13, 17, 0) 100%);
+border: 5px solid #F5EBEB;
+box-sizing: border-box;
+border-radius: 50px;
+    
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+}
