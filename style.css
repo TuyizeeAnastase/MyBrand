@@ -274,3 +274,53 @@ border-radius: 25px;
   background-color: #125688;
   font-size: 35px;
 }
+.contact_header{
+position: absolute;
+width: 1073px;
+height: 41px;
+font-family: Port Lligat Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 77px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFBFB;
+left: 325px;
+}
+.contact_form{
+position: absolute;
+width: 1978px;
+height: 758px;
+left: 0px;
+top: 279px;
+background: #C4C4C4;
+}
+.contact_form-header{
+font-family: Sanchez;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+.contact_input{
+position: absolute;
+width: 277px;
+height: 32px;
+left: 400px;
+top: 134px;
+background: #FFFBFB;
+}
+.message{
+position: absolute;
+width: 745px;
+height: 191px;
+left: 400px;
+top: 385px;
+background: #FFFBFB;
+}
