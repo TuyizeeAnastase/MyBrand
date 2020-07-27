@@ -6,6 +6,7 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
 </head>
 <body>
     <header class="header">
@@ -23,13 +24,14 @@
     </div>
     </header> 
     <div class="contact">
-    <div class="contact_form">
+    <form class="contact_form" id="contactForm" onsubmit="return sendEmail()">
         <h1 class="contact_form-header">Contact Me</h1>
-        <input class="contact_input" type="text" placeholder="Type Your Name"></br>
-        <input class="contact_input" type="email" placeholder="type your email"></br>
-        <textarea name="message" placeholder="type your message" class="message" cols="30" rows="10"></textarea></br>
-        <button>Send</button>
-    </div>
+        <input class="contact_input" type="text" id="Name" placeholder="Type Your Name"></br>
+        <input class="contact_input" type="email" id="Email" placeholder="type your email"></br>
+        <textarea id="message" placeholder="type your message" class="message" cols="30" rows="10"></textarea></br>
+        <input class="button" type="submit" value="send"></br></br>
+        <input class="button" type="reset" value="cancel" >
+    </form>
 </div>
     <footer class="footer">
         <ul class="social-media">
