@@ -289,9 +289,9 @@ resize: none;
 text-align: center;
 color: black;
 }
-.contact_form button{
+.button{
   height: 30px;
-  width: 277px;
+  width: 278px;
   box-sizing: border-box;
   background-color: teal;
   border: 3px solid #555;
