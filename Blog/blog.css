@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+    margin: 15px 15px 15px 15px;
+    }
+    .logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    line-height: 6px;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+    margin-top: 4px;
+    float: left;
+    }
+    .nav{
+    left: 855px;
+    line-height: 6px;
+    float: right;
+    }
+    .nav_list{
+      list-style-type: none;
+      margin-top: 1px;
+      display: flex;
+      }
+      .nav_list-item{
+          font-family: Sanchez;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 6px;
+          color: #FFFBFB;
+          margin: 1px 5px 0 5px;
+          text-decoration: none;  
+      }
+      .nav_list-item:hover{
+          color: bisque;
+          font-size: 35px;
+      }
+    .active{
+      color: rgb(190, 190, 35);
+    }
+    .blog_content{
+         position: relative;
+         background-color:white;
+         top: 45px;
+         height: 75%;
+    }
+    .blog_title{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .blog_form{
+        text-align: center;
+    }
+    .search{
+        height: 40px;
+        width: 500px;
+        left: 35%;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-color: rgb(208, 221, 220);
+        text-align: center;
+        background-image: url('icons8-search-48.png');
+        background-repeat: no-repeat;
+    }
+    .blog_search-btn{
+        height: 40px;
+        width: 70px;
+        background-color: rgb(50, 146, 209);
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .blog_search-btn:hover{
+        background-color: #0b8af1;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .blogOwner-btn{
+        height: 40px;
+        width: 70px;
+        margin-left: 5px;
+        border-radius: 25px;
+        background-color: rgb(50, 146, 209);
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+    }
+    .blogOwner-btn:hover{
+        background-color: #0b4275;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .image_blog{
+        margin-top: 15px;
+        margin-left: 35px;
+        width: 580px;
+        height: 400px;
+        position: relative;
+    }
+    .image_blog:hover{
+        cursor: pointer;
+    }
+    .image_blog1:hover{
+        cursor: pointer;
+    }
+    .image_blog1{
+        margin-top: 15px;
+        margin-left: 35px;
+        width: 375px;
+        height: 300px;
+    }
+    .container{
+        position: relative;
+    }
+    .image_text{
+       position: absolute;
+       left:40px;
+       top:230px;
+       color: white;
+       width: 390px;
+       height: 25px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: bold;
+    }
+    .image_text h4{
+        color:whitesmoke;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .image_text a{
+        text-decoration: none;
+        font-size: 35px;
+        color: aqua;
+    }
+    .footer{
+        height: 45px;
+        background-color: rgb(10, 10, 10);
+        color: rgb(19, 18, 18);
+        padding: 15px;
+        text-align: center;
+        margin-top: 40px;
+        }
+      .social-media{
+        text-align: center;
+        bottom: 0;
+        }
+       .social-media li{
+        display: inline-block;
+        vertical-align: middle;
+       } 
+      .fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+      .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+      .fa-youtube {
+          background: #bb0000;
+          color: white;
+        }
+        
+      .fa-github {
+          background: #125688;
+          color: white;
+        }
+      .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+       
+       

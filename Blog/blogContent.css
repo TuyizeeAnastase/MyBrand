@@ -1,0 +1,129 @@
+body{
+    background: #0B0B0C;
+    margin: 15px 15px 15px 15px;
+    }
+    .header{
+    background: #0B0B0C;
+    }
+    .logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    line-height: 6px;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+    margin-top: 4px;
+    float: left;
+    }
+    .nav{
+    left: 855px;
+    line-height: 6px;
+    float: right;
+    }
+    .nav_list{
+      list-style-type: none;
+      margin-top: 1px;
+      display: flex;
+      }
+      .nav_list-item{
+          font-family: Sanchez;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 6px;
+          color: #FFFBFB;
+          margin: 1px 5px 0 5px;
+          text-decoration: none;  
+      }
+      .nav_list-item:hover{
+          color: bisque;
+          font-size: 35px;
+      }
+    .active{
+      color: rgb(190, 190, 35);
+    }
+    .article_content{
+        height: 75%;
+        background-color: white;
+        position: relative;
+        top: 55px;
+        
+    }
+    .article_content h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+    }
+    .article_content img{
+        width: 50%;
+        height: 400px;
+        margin-left: 90px;
+    }
+    .article_content-blog{
+      margin-left: 90px;
+      width: 1000px;
+      font-weight: 35px;
+      margin-bottom: 50px;
+    }
+    .article-comment{
+      margin-left: 90px;
+    }
+    .comment{
+      width: 700px;
+      height: 50px;
+    }
+    .comment-btn{
+      width: 100px;
+      height: 50px;
+      cursor: pointer;
+    }
+    .footer{
+        height: 45px;
+        background-color: rgb(10, 10, 10);
+        color: rgb(19, 18, 18);
+        padding: 15px;
+        text-align: center;
+        margin-top: 80px;
+        }
+      .social-media{
+        text-align: center;
+        bottom: 0;
+        }
+       .social-media li{
+        display: inline-block;
+        margin-bottom: 5px;
+        vertical-align: middle;
+       } 
+      .fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+      .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+      .fa-youtube {
+          background: #bb0000;
+          color: white;
+        }
+        
+      .fa-github {
+          background: #125688;
+          color: white;
+        }
+      .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+      

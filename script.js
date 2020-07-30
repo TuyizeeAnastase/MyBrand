@@ -16,6 +16,6 @@ function sendEmail(){
          return false;
      }
      else{
-         alert("email sent successsfully!")
+         location.href="feedback.html"
      }
 }
