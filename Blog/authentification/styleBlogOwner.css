@@ -1,0 +1,64 @@
+body{
+    background-color: gainsboro;
+    margin: 15px;
+}
+.logo{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    color: blanchedalmond;
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 75%;
+  overflow: auto;
+}
+.nav_list a{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.nav_list li a:hover{
+    color: white;
+    background-color: black;
+}
+.nav_list li a.active{
+    color: white;
+    background-color: black;
+}
+.blog_content{
+    margin-left: 16%;
+}
+.blog_title{
+    text-align: center;
+}
+.article_content-img{
+    width: 400px;
+    height: 200px;
+}
+.comment-btn{
+    width: 145px;
+    height: 45px;
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.footer{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    margin-top: 33%;
+}
+.footer_title{
+    color: white;
+    text-align: center;
+}
