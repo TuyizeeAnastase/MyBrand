@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
     <link rel="stylesheet" href="blog.css">
-    <link  href="blog.js">
 </head>
 <body>
     <header class="header">
@@ -28,24 +29,8 @@
            <input type="button" value="Search" class="blog_search-btn">
            <input type="button" onclick="location.href='authentification/login.html'" value="Blogger" class="blogOwner-btn">
         </form>
-        <div class="blog">
-            <div class="image-container">
-                <div class="container">
-                   <a href="blogContent.html"><img title="8th Generation Intel® Core™ i7 Processors" src="black-and-gray-motherboard-2582937.jpg" alt="Blog Image" class="image_blog"></a>
-                   <img src="skyline-photography-of-buildings-3052361.jpg" title="Digital cities" alt="Skyline" class="image_blog">
-                   <div class="image_text">
-                       <h4>i7 Processor</h4>
-                       <p>Deliver a fantastic entertainment and gaming experience with 10th Gen Intel® Core™ i7 processors featuring built-in AI and Wi-Fi 6.
-                           <a href="blogContent.html">Read More...</a>
-                       </p>
-                   </div>
-                </div>  
-            <img src="cars-on-black-asphalt-road-during-nighttime-53757.jpg" title="IoT Transportation" alt="Cars" class="image_blog1">
-            <img src="photography-of-person-walking-on-road-1236701.jpg" title="Hacker in the world" alt="Person" class="image_blog1">
-            <img src="photo-of-gray-concrete-road-in-the-middle-of-jungle-during-775199.jpg" alt="Road" title="large forest internet connection" class="image_blog1">
-        </div>
-   </div>
-   <footer class="footer">
+        <div id="blog"></div>
+   <footer  class="footer">
     <ul class="social-media">
       <li><a href="#" class="fa fa-facebook"></a></li>
       <li><a href="#" class="fa fa-twitter"></a></li>
@@ -54,5 +39,6 @@
       <li><a href="#" class="fa fa-linkedin"></a></li>
    </ul>
   </footer> 
+  <script src="blog.js"></script>
 </body>
 </html>
