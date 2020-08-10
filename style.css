@@ -1,0 +1,308 @@
+body{
+background: #0B0B0C;
+margin: 15px 15px 15px 15px;
+}
+.header{
+background: #0B0B0C;
+}
+.logo{
+font-family: 'Times New Roman', Times, serif;
+font-size: 34px;
+line-height: 6px;
+align-items: center;
+text-align: center;
+color: #FFFBFB;
+margin-top: 4px;
+float: left;
+}
+.nav{
+left: 855px;
+line-height: 6px;
+float: right;
+}
+.nav_list{
+  list-style-type: none;
+  margin-top: 1px;
+  display: flex;
+  }
+  .nav_list-item{
+      font-family: Sanchez;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 6px;
+      color: #FFFBFB;
+      margin: 1px 5px 0 5px;
+      text-decoration: none;  
+  }
+  .nav_list-item:hover{
+      color: bisque;
+      font-size: 35px;
+  }
+.active{
+  color: rgb(190, 190, 35);
+}
+.btn_join-content{
+  position: relative;
+}
+.btn_join-content h2{
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  line-height: 30px;
+  font-size: 45px;
+}
+.btn_join-content h1{
+  color: white;
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  left: 37%;
+  top: 170px;
+}
+.btn_join{
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  top: 300px;
+}
+.btn_join button{
+  height: 55px;
+  width: 200px;
+  background: #2D98C7;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 9px;
+}
+.btn_join button:hover{
+  background-color: aqua;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+.short-abt{
+position: relative;
+background: rgba(216, 208, 208, 0.82);
+top: 355px;
+height: 330px;
+}
+.short-title{
+font-family: 'Times New Roman', Times, serif;
+font-size: 28px;
+line-height: 30px;
+color: #000000;
+margin-left:150px;
+text-align: center;
+}
+.short-abt-cont{
+position: sticky;
+font-family: Sanchez;
+margin: 0 35px 0 35px;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
+text-align: center;
+}
+.short-abt-btn{
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  left: 40%;
+}
+.short-abt-btn button{
+  height: 50px;
+  width: 250px;
+  background: #2D98C7;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Sanchez;
+  font-size: 32px;
+  line-height: 9px;
+  margin-top: 15px;
+}
+.short-abt-btn button:hover{ 
+    background-color: aqua;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+    cursor: pointer;
+}
+.footer{
+  height: 45px;
+  background-color: rgb(10, 10, 10);
+  color: rgb(19, 18, 18);
+  padding: 15px;
+  text-align: center;
+  margin-top: 340px;
+  }
+.social-media{
+  text-align: center;
+  bottom: 0;
+  }
+ .social-media li{
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+ } 
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.fa-github {
+    background: #125688;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .about-content{
+    background-color: white;
+    margin-top: 45px;
+  }
+.about img{
+  margin-top: 55px;
+  height: 435px;
+  left: 40px;
+}
+.about-title {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  left: 618px;
+  right: 5px;
+  top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0B0A0A; 
+}
+.personal-info{
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  left: 618px;
+  top: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #020202;
+}
+.abt-btn{
+position: absolute;
+width: 272px;
+height: 55px;
+left: 650px;
+top: 404px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 24px;
+line-height: 55px;
+color: #080808;
+background-color: teal;
+border-radius: 25px;
+}
+.abt-btn:hover{
+  background-color: #125688;
+  font-size: 35px;
+}
+.contact_header{
+font-family: Port Lligat Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 77px;
+align-items: center;
+text-align: center;
+color: #FFFBFB;
+}
+.contact_form{
+position: absolute;
+width:100%;
+height: 334px;
+padding: 5px;
+left: 0px;
+background: #C4C4C4;
+text-align: center;
+margin: 0 0 0 0;
+}
+.contact_form-header{
+font-family: Sanchez;
+font-size: 28px;
+line-height: 31px;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+.contact_input{
+width: 277px;
+height: 32px;
+left: 400px;
+top: 1px;
+background: #FFFBFB;
+box-sizing: border-box;
+padding: 5px;
+text-align: center;
+line-height: 5px;
+margin-top:5px;
+border: 3px solid #555;
+}
+.contact_input:hover{
+   width: 300px;
+}
+.message{
+width: 277px;
+height: 100px;
+left: 400px;
+top: 385px;
+margin-top: 5px;
+background: #FFFBFB;
+border: 2px solid #ccc;
+border-radius: 4px;
+color: #f8f8f8;
+resize: none;
+text-align: center;
+color: black;
+}
+.button{
+  height: 30px;
+  width: 278px;
+  box-sizing: border-box;
+  background-color: teal;
+  border: 3px solid #555;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.alert{
+  color:blue;
+  display:none;
+}
