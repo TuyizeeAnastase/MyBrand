@@ -1,2 +1,0 @@
-# MyBrand
-My Personal Website
