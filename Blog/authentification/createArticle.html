@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <link rel="stylesheet" href="styleBlogOwner.css">
+</head>
+<body onload=" onlaudFunctionArticle()">
+    <header class="header">
+        <div class="tittle">
+          <h1 class="logo">Anastase Tuyizere Blog Post Dashbord</h1>
+        </div>
+        <nav class="nav">
+           <ul class="nav_list">
+               <li ><a href="../../index.html" class="nav_lit-item">Home</a></li>
+               <li ><a href="styleBlogOwner.html" class="nav_lit-item ">Article</a></li>
+               <li ><a href="#" class="nav_lit-item active">Create Article</a></li>
+               <li ><a href="#" class="nav_lit-item">Profile</a></li>
+           </ul>
+       </nav>
+    </header>
+    <div class="blog_content">
+         <form id="createForm">
+             <h3 class="add_titl">Create Article</h3>
+             <h3 class="alert">Article Created Seccessfully!</h3>
+            Blog Title:<input required type="text" id="blogTitle" ></br>
+            Blog Content:</br>
+            <textarea id="article" required class="message" cols="150" rows="30"></textarea></br>
+            <button type="submit" class="button">Create</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <h1 class="footer_title">Anastase Tuyizere</h1>
+    </footer>
+    <script src="../../script.js"></script>
+</body>
+</html>
