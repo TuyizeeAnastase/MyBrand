@@ -83,30 +83,7 @@ document.getElementById('article').value='';
 })
  }
 
-function logIn(){
-  var provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(provider)
-  .then(result=>{
-    const user=result.user;
-    console.log(user)
-  })
-  .catch(err=>{
-    console.log(err)
-  });
-}
 
-
-
- firebase.auth().onAuthStateChanged((user)=>{
-   if(user){
-     location.href="./Blog/blog.html"
-     console.log('log in')
-   }
-   else{
-     location.href="index.html"
-     console.log('log out')
-   }
- })
 
 function getInput(id){
   return document.getElementById(id).value;

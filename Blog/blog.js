@@ -32,9 +32,6 @@ function renderArticle(doc){
 
 }
 
-function logOut(){
-    return firebase.auth().signOut();
-  }
 
 db.collection("articles").get().then(function(snapshot){
        snapshot.docs.forEach(doc=> {
@@ -42,11 +39,4 @@ db.collection("articles").get().then(function(snapshot){
        });
     });
   
-    firebase.auth().onAuthStateChanged((user)=>{
-        if(user){
-          console.log('log in')
-        }
-        else{
-          console.log('log out')
-        }
-      })
+    
