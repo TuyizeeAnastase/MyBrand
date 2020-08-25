@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnastaseTuyizere</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
     <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
 </head>
 <body >
    <header class="header">
@@ -25,7 +26,7 @@
        <h2 class="title">Software Engineer and Blogger</h2></br>
         <h1>Anastase Tuyizere</h1>
     <div class="btn_join">
-          <button  type="submit">Join Me</button>
+          <button  type="submit" onclick="location.href='login.html'" >Join Me</button>
     </div>
     </div>
    <div class="short-abt">
@@ -46,6 +47,16 @@
         <li><a href="#" class="fa fa-linkedin"></a></li>
      </ul>
     </footer>
-<script src="script.js" ></script>
+    <script>
+        fetch('http://127.0.0.1:3000/api/v1/users')
+        .then(result=>{
+            console.log(result);
+            return result.json();
+        })
+        .then(data=>{
+            console.log(data);
+        })
+        .catch(error=>console.log(error))
+    </script>
 </body>
 </html>

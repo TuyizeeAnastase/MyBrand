@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Anastase Tuyizere</h1>
+        <nav class="nav">
+           <ul class="nav_list">
+              <li ><a href="index.html" class="nav_list-item">Home</a></li>
+               <li ><a href="about.html" class="nav_list-item">About</a></li>
+               <li ><a href="login.html" class="nav_list-item  active ">Join</a></li>
+               <li ><a href="contactPage.html" class="nav_list-item">Contact Me</a></li>
+           </ul>
+       </nav>
+       <div class="contactMe">
+        <h1 class="contact_header">Start Journal with me</h1>
+    </div>
+    </header>
+    <form class="logn-content" id="signUp">
+        <h1 class="log-title">Sign Up</h1></br>
+        <input type="text" placeholder="Enter Names" id="name" class="login-input"></br>
+        <input type="email" placeholder="Enter Email" id="email" class="login-input"></br>
+        <input type="password" placeholder="Enter password"  id="password" class="login-input"></br>
+        <input type="password" placeholder="Confirm password" id="passwordConfirm" class="login-input"></br>
+        <input type="submit" value="SignUp" class="login-btn"></br>
+        Do you have account sign in <a href="login.html" class="login-sign">Here</a>
+    </form>
+    <footer class="footer">
+        <ul class="social-media">
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-youtube"></a></li>
+          <li><a href="#" class="fa fa-github"></a></li>
+          <li><a href="#" class="fa fa-linkedin"></a></li>
+       </ul>
+      </footer>
+    <script>
+         signUp.onsubmit=async(e)=>{
+             e.preventDefault();
+             
+             let name=document.getElementById('name').value;
+             let email=document.getElementById('email').value;
+             let password=document.getElementById('password').value;
+             let passwordConfirm=document.getElementById('passwordConfirm').value;
+                    
+            
+            fetch('http://127.0.0.1:3000/api/v1/users/signUp',
+               {
+                 method:'POST',
+                 headers:new Headers(),
+                 headers:{
+                    'Accept':'application/json,text/plain,*/*',
+                    'Content-Type': 'application/json'
+                 },
+                 mode:"no-cors",
+                 body:JSON.stringify({
+                     name:name,
+                     email:email,
+                     password:password,
+                     passwordConfirm:passwordConfirm
+                     
+                  }),
+             })
+            .then((result)=>{
+                   console.log(result);
+               return result.json()
+            })
+            .then(data=>console.log(data))
+            .catch(err=>console.log(err));
+         }
+    </script>
+</body>
+</html>
