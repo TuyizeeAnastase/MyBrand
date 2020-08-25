@@ -17,7 +17,7 @@
   firebase.initializeApp(firebaseConfig);
   
   
-  var db=firebase.firestore()
+  var db=firebase.firestore();
 
 function  onlaudFunction(){
   var form=document.getElementById('contactForm');
@@ -82,9 +82,7 @@ document.getElementById('article').value='';
   });
 })
  }
-
-
-
+ 
 function getInput(id){
   return document.getElementById(id).value;
 } 
